@@ -4,7 +4,7 @@
 #define SENSOR_PIN 4         // PIR sensor pin
 #define INDICATOR_PIN 17     // LED pin
 #define ESPNOW_WIFI_CHANNEL 6
-#define CLEAR_DELAY 10     // milliseconds
+#define CLEAR_DELAY 100     // milliseconds
 
 class ESP_NOW_Broadcast_Peer : public ESP_NOW_Peer {
 public:
